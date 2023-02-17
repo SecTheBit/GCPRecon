@@ -38,7 +38,7 @@ Give Required Permissions to Service Account
 
 ![GCPRecon](https://github.com/SecTheBit/GCPRecon/blob/main/gcprecon.png)
 
-### Assigning Roles in Service Account
+### Assigning Roles to Service Account
 
 1. Go to https://console.cloud.google.com
 2. Log in to your GCP Account
