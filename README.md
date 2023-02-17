@@ -36,6 +36,8 @@ Give Required Permissions to Service Account
 
 ` python3 GCPRecon.py --credentials <path to service account file> `
 
+![GCPRecon](https://github.com/SecTheBit/GCPRecon/blob/main/gcprecon.png)
+
 ### Assigning Roles in Service Account
 
 1. Go to https://console.cloud.google.com
