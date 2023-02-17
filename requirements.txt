@@ -1,0 +1,6 @@
+google_api_python_client==2.78.0
+kubernetes==25.3.0
+pandas==1.5.3
+protobuf==4.22.0
+pyfiglet==0.8.post1
+requests==2.22.0
