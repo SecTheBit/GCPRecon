@@ -38,6 +38,9 @@ Give Required Permissions to Service Account
 
 ![GCPRecon](https://github.com/SecTheBit/GCPRecon/blob/main/gcprecon.png)
 
+### Output Formats
+* Currently it Supports only xlsx and csv format.
+
 ### Assigning Roles to Service Account
 
 1. Go to https://console.cloud.google.com
