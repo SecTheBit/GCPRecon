@@ -47,6 +47,19 @@ Give Required Roles to Service Account
 ### Output Formats
 * Currently it Supports only xlsx and csv format.
 
+### Enabling APIs in GCP
+
+1. Go to https://console.cloud.google.com
+2. Login to your GCP Account
+3. Click on Hamburger icon on left hand side and select "APIs & Services"
+4. Click on "+ ENABLE APIS AND SERVICES"
+5. Search for "Identity and Access Management (IAM) API" and Click on Enable.
+6. Similarly Search for Following APIs and Services and Enable them.
+   * Compute Engine API 
+   * Cloud Storage 
+   * App Engine Admin API 
+   * sqladmin API (prod)
+   
 ### Assigning Roles to Service Account
 
 1. Go to https://console.cloud.google.com
