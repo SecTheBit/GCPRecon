@@ -12,8 +12,11 @@ There are not many tools available which are covering all the produts of Google 
 * CloudSQL
 * Cloud Storage
 
-### Installing GCPRecon
+### Compatibility
+* Recommended Python Version : 3.8.10
+* Recommended Pip Version : 23.0.1 
 
+### Installing GCPRecon   
 ```
 git clone https://github.com/SecTheBit/GCPRecon
 ```
@@ -21,7 +24,10 @@ git clone https://github.com/SecTheBit/GCPRecon
 pip install requirements.txt
 ```
 ```
-Give Required Permissions to Service Account
+Enable Required API and Services in GCP
+```
+```
+Give Required Roles to Service Account
 ```
 
 ### Roles Required
