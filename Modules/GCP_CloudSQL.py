@@ -6,7 +6,7 @@ class CloudSQL:
     sql_client = discovery.build('sqladmin', 'v1beta4')
     resp = sql_client.instances().list(project=project_id).execute()
     if resp is  not None:
-        for data in resp['items']:
+        for data in resp['items'] and 'items' in resp:
             if(data['ipAddresses'][0]['type'] != "PRIVATE"):
                 if 'value' in data['settings']['ipConfiguration']['authorizedNetworks']:
                     #print(data['ipAddresses'][0]['ipAddress']+" is Accessible By "+data['settings']['ipConfiguration']['authorizedNetworks'][0]['value'])
