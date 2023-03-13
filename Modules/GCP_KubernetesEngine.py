@@ -29,7 +29,7 @@ class GCP_KubernetesEngine:
         for locations in data:
             locations = locations.strip()
             service = discovery.build('container', 'v1')
-            parent="projects/endless-force-372307/locations/"+locations
+            parent="projects/"+project_id+"/locations/"+locations
             request = service.projects().locations().clusters().list(parent=parent)
             response = request.execute()
             if response:
