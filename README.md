@@ -59,6 +59,7 @@ Give Required Roles to Service Account
    * Cloud Storage 
    * App Engine Admin API 
    * sqladmin API (prod)
+   * Kubernetes Engine API 
    
 ### Assigning Roles to Service Account
 
