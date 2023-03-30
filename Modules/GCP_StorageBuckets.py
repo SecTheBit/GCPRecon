@@ -45,7 +45,7 @@ class GCP_StorageBucket:
         buckets = storage_client.list_buckets(project=project_id)
         for bucket in buckets:
             unauth_permissions = publicAccess(bucket.name)
-            if unauth_permissions == "NO":
+            if unauth_permissions == "NO Public Access":
                 credentials = service_account.Credentials.from_service_account_file(serviceAccountFile,scopes=scopes)
                 auth_req = google.auth.transport.requests.Request()
                 credentials.refresh(auth_req)
